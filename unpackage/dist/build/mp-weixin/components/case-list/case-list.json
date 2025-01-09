@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall"
+  }
+}

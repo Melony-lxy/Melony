@@ -1,0 +1,101 @@
+@import '../global.scss';
+.main{
+	background-color: $mainBg;
+	.content{
+		display: flex;
+		flex-direction: column;
+		height: calc(100vh - var(--window-top));
+		width: 100%;
+		.search{
+			margin: 20rpx 20rpx 0;
+		}
+		.swiper-box {
+			flex: 1;
+			.swiper-item {
+				height: 100%;
+				.orderItem{
+					box-sizing: border-box;
+					margin: 28rpx;
+					padding: 30rpx;
+					border-radius: 16rpx;
+					box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+					.hospital{
+						padding: 5rpx 10rpx;
+						background-color: $themeColor;
+						color: #FFFFFF;
+						display: inline-block;
+						border-radius: 10rpx;
+						margin-bottom: 10rpx;
+					}
+					.item{
+						margin-top: 20rpx;
+						.title{
+							width: 50%;
+						}
+						.priceOrNumber{
+							width: 20%;
+						}
+					}
+					.gap{
+						margin: 25rpx 0 !important;
+					}
+					.distance{
+						position: relative;
+						padding-top: 23rpx;
+					}
+					.describe{
+						padding: 11rpx;
+						background-color: #FAFAFA;
+					}
+					.img{
+						border: 2rpx solid #F1F1F1;
+						margin-right: 22rpx;
+					}
+					.more{
+						border: 2rpx solid #D1D1D1;
+						border-radius: 6rpx;
+						padding: 9rpx 19rpx;
+						position: relative;
+						
+					}
+					.moreBox{
+						z-index: 11111;
+						width: 160rpx;
+						position: absolute;
+						top: 100rpx;
+						left: -20rpx;
+						box-shadow: 0rpx 3rpx 12rpx rgba(0, 0, 0, 0.2);
+						&:after {
+						  position: absolute;
+						  display: inline-block;
+						  top: -10rpx;
+						  left: 40rpx;
+						  width: 0;
+						  height: 0;
+						  content: '';
+						  border-style: solid;
+						  border-radius: 5rpx;
+						  border-width: 12rpx;
+						  border-color: #fff #fff transparent transparent;
+						  transform: rotate(-45deg);
+						  box-shadow: 2rpx -2rpx 2rpx #eee;
+						}
+						.option{
+							padding: 12rpx 0;
+						}
+					}
+					.logistics{
+						border: 2rpx solid $project-color;
+						border-radius: 50rpx;
+						padding: 10rpx 0;
+						text-align: center;
+						margin: 0 10rpx;
+						width: 150rpx;
+					}
+				}
+			}
+		}
+	}
+	
+	
+}

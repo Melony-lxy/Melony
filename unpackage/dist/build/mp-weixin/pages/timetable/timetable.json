@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "课表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar",
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "search-list": "/components/searchList",
+    "zsy-calendar": "/components/zsy-calendar/zsy-calendar",
+    "share": "/components/share/share",
+    "qrcode-poster": "/components/zhangyu-qrcode-poster/zhangyu-qrcode-poster"
+  }
+}

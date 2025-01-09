@@ -1,0 +1,19 @@
+
+.text.data-v-535c2854{
+	text-align: center;
+	font-size: 26rpx;
+	font-family: Source Han Sans SC;
+	font-weight: 400;
+	color: #BFBFBF;
+	margin-top: 175rpx;
+}
+.inputText.data-v-535c2854{
+	margin-top: 50rpx;
+}
+.codeText.data-v-535c2854{
+	font-size: 26rpx;
+	font-family: Source Han Sans SC;
+	font-weight: 400;color: #BFBFBF;text-align: center;
+	margin-top: 106rpx;
+}
+

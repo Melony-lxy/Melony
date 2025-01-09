@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的课程",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "curriculum-item": "/packgeB/curriculumItem"
+  }
+}

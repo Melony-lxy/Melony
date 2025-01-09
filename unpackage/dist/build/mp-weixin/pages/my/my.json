@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "zcscrool": "/components/zc-scroll/zc-scroll"
+  }
+}

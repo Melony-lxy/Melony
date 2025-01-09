@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "banner": "/components/banner",
+    "case-popup": "/components/case-list/case-popup",
+    "case-list": "/components/case-list/case-list",
+    "circle-list": "/components/circleList",
+    "special": "/components/special",
+    "dynamic": "/components/dynamic"
+  }
+}

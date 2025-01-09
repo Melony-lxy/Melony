@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-3339cbb3 .u-btn--success {
+  color: #ffffff;
+  border-color: #042BE3;
+  background-color: #042BE3;
+}
+.box.data-v-3339cbb3 {
+  padding: 36rpx 24rpx 0 24rpx;
+}
+.box .headBox.data-v-3339cbb3 {
+  margin-bottom: 92rpx;
+}
+.box .header.data-v-3339cbb3 {
+  width: 123rpx;
+  height: 123rpx;
+  border-radius: 50%;
+}
+.box .text.data-v-3339cbb3 {
+  display: flex;
+  font-size: 32rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #2d2d2d;
+  opacity: 1;
+}
+.box .text .red.data-v-3339cbb3 {
+  color: red;
+}
+.box .item.data-v-3339cbb3 {
+  padding: 20rpx 0;
+  border-bottom: 1px solid #F1F1F1;
+}
+.confimBox.data-v-3339cbb3 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.confimBox.data-v-3339cbb3 .u-success-hover {
+  background-color: #042BE3 !important;
+}
+.uni-list-cell.data-v-3339cbb3 {
+  overflow: hidden;
+  margin-bottom: 54rpx;
+  font-size: 32rpx;
+}
+.uni-list-cell-left.data-v-3339cbb3 {
+  width: 50%;
+  float: left;
+  font-size: 32rpx;
+}
+.uni-list-cell-db.data-v-3339cbb3 {
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 32rpx;
+}
+.synopsis.data-v-3339cbb3 {
+  font-size: 32rpx;
+}
+.synopsis view.data-v-3339cbb3 {
+  font-size: 32rpx;
+}
+textarea.data-v-3339cbb3 {
+  width: 648rpx;
+  border-radius: 12rpx;
+  margin-top: 10rpx;
+}
+

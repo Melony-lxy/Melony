@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "case-list": "/components/case-list/case-list"
+  }
+}

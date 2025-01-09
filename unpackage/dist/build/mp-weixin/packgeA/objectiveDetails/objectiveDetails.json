@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "测验",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-line": "/uview-ui/components/u-line/u-line"
+  }
+}

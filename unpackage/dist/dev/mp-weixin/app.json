@@ -1,0 +1,184 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/index",
+    "pages/timetable/timetable",
+    "pages/my/my",
+    "pages/case/case",
+    "components/scolls/scolls",
+    "pages/activity/activity",
+    "pages/webview/webview"
+  ],
+  "subPackages": [
+    {
+      "root": "packgeA",
+      "pages": [
+        "agreement/agreement",
+        "answerResult/answerResult",
+        "bindPhone/bindPhone",
+        "curriculumDetails/curriculumDetails",
+        "commodityList/commodityList",
+        "coupon/coupon",
+        "myTask/myTask",
+        "taskDetails/taskDetails",
+        "personalData/personalData",
+        "newsList/newsList",
+        "testAnswer/testAnswer",
+        "teacherDetails/teacherDetails",
+        "sign/sign",
+        "sign/statistics",
+        "tencent/tencent",
+        "setUp/setUp",
+        "login/login",
+        "register/register",
+        "resetPassword/resetPassword",
+        "messageCode/messageCode",
+        "phoneCode/phoneCode",
+        "newPassword/newPassword",
+        "myOrder/myOrder",
+        "orderDetails/orderDetails",
+        "objectiveDetails/objectiveDetails",
+        "myTest/myTest",
+        "PersonalCenter/PersonalCenter",
+        "followFans/followFans",
+        "followFanss/followFanss",
+        "comingSoon/comingSoon",
+        "intelligentCustomization/intelligentCustomization",
+        "case/ArtExchangeCircle",
+        "case/PopularActivities",
+        "case/topicDetails",
+        "case/circleDetails",
+        "case/tanning/tanning",
+        "case/search/search",
+        "case/search_list/search_list",
+        "case/caseDetails/caseDetails",
+        "case/videoplay",
+        "empower/w",
+        "worksDetail/worksDetail",
+        "accountSecurity/accountSecurity",
+        "studentRegistration/studentRegistration",
+        "application/application",
+        "studentRegistration1/studentRegistration1"
+      ]
+    },
+    {
+      "root": "packgeB",
+      "pages": [
+        "timetable/informationModification/informationModification",
+        "timetable/aiGrowUpPlan",
+        "timetable/planDetails",
+        "timetable/choiceQuestion",
+        "timetable/BindingDevice",
+        "timetable/BindingDevice1",
+        "timetable/BindingDevice2",
+        "timetable/BindingDevice3",
+        "timetable/growthPlan",
+        "timetable/personalHomepage",
+        "timetable/personalHomepage1",
+        "dynamic/dynamic",
+        "liveDetails/liveDetails",
+        "my/activateNowContent",
+        "my/memberCenter",
+        "myCurriculum/myCurriculum",
+        "search/search",
+        "UserAgreement/UserAgreement",
+        "cumulativeOrders/cumulativeOrders",
+        "cumulativeCustomers/cumulativeCustomers",
+        "pendingAmount/pendingAmount",
+        "accumulatedIncome/accumulatedIncome",
+        "cashWithdrawal/cashWithdrawal",
+        "rules/rules",
+        "coursecenter/coursecenter",
+        "applyclassrepresentative/applyclassrepresentative",
+        "classrepresentative/classrepresentative",
+        "sectionDetails/sectionDetails",
+        "scorecenter/scorecenter",
+        "scorerules/scorerules",
+        "LandingPage/LandingPage",
+        "activityDetail/activityDetail",
+        "activityDetail/application",
+        "activityDetail/payment",
+        "sign/sign",
+        "myActivity/myActivity"
+      ]
+    },
+    {
+      "root": "pagesShop",
+      "pages": [
+        "commodity/detail",
+        "chat/index",
+        "shopping/index",
+        "classify/index",
+        "classify/list",
+        "commodity/addComment",
+        "commodity/commentList",
+        "order/purchased",
+        "order/index",
+        "members/discountCoupon",
+        "address/index",
+        "address/addOrEdit",
+        "invoice/apply",
+        "invoice/invoiceList",
+        "order/afterSale",
+        "order/afterSaleList",
+        "order/detail",
+        "order/orderList",
+        "order/returnCommodity",
+        "order/transportation",
+        "user/browsingHistory",
+        "coupon/coupon",
+        "AddMoreAddress",
+        "order/order",
+        "member/member"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#042BE3",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBat/home.png",
+        "selectedIconPath": "static/tabBat/home2.png"
+      },
+      {
+        "text": "商城",
+        "pagePath": "pages/shop/index",
+        "iconPath": "static/tabBat/shop.png",
+        "selectedIconPath": "static/tabBat/shop2.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/activity/activity",
+        "iconPath": "static/tabBat/activity.png",
+        "selectedIconPath": "static/tabBat/activity2.png"
+      },
+      {
+        "text": "动态",
+        "pagePath": "pages/case/case",
+        "iconPath": "static/tabBat/case.png",
+        "selectedIconPath": "static/tabBat/case2.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabBat/user.png",
+        "selectedIconPath": "static/tabBat/user2.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "null-data": "/components/nullData"
+  }
+}

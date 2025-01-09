@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "参与动态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

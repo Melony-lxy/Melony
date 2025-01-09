@@ -1,0 +1,1 @@
+<view><block wx:if="{{currentResource}}"><video style="width:750rpx;" id="videoPlayer" autoplay="{{true}}" poster="{{currentPoster}}" src="{{currentResource}}"></video></block></view>

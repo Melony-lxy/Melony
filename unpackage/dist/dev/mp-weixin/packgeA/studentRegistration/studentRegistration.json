@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "学员报名",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "share": "/components/share/share",
+    "qrcode-poster": "/components/zhangyu-qrcode-poster1/zhangyu-qrcode-poster"
+  }
+}

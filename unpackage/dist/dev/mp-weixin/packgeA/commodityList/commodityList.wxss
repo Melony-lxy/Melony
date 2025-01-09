@@ -1,0 +1,52 @@
+
+page {
+	background-color: F9FAFB;
+}
+
+
+.screenBox.data-v-f3ed72f8 {
+	padding: 10rpx 30rpx;
+}
+.screenBox ._img.data-v-f3ed72f8 {
+	width: 20rpx;
+	height: 20rpx;
+	margin-top: 6rpx;
+}
+.screenItem.data-v-f3ed72f8 {
+	padding: 25rpx 0;
+	font-size: 26rpx;
+	font-family: Source Han Sans SC;
+	font-weight: 400;
+	color: #2d2d2d;
+}
+.leftMargin.data-v-f3ed72f8 {
+	width: 118rpx;
+	margin-right: 10rpx;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+.searchbgc.data-v-f3ed72f8 {
+	width: 160rpx;
+	height: 58rpx;
+	padding-left: 30rpx;
+	border-radius: 80rpx;
+	font-weight: 500;
+	background-color: #fff4ee;
+}
+/* .divider{
+	padding-top:40rpx;
+	text-align: center;
+	padding-bottom:40rpx;
+}
+.logoimg{
+	width:200rpx;
+	height:50rpx;
+	margin:40rpx 0;
+}
+.tip{
+	margin-top:-25rpx;
+	margin-left:10rpx;
+} */
+

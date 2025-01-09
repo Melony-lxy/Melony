@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "快递信息",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-select": "/uview-ui/components/u-select/u-select"
+  }
+}

@@ -1,0 +1,157 @@
+.flexs {
+	display: flex;
+}
+
+.flexsCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	.table-btn{
+		text-decoration:none;
+	}
+
+.SpaceBetween {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex {
+	display: flex;
+}
+
+.bgWhite {
+	background-color: white;
+}
+
+/*垂直居中*/
+.align-center {
+	display: flex;
+	align-items: center;
+}
+
+/*垂直水平居中*/
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*两端对齐*/
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-shrink {
+	flex: 1;
+}
+
+.text-overflow {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* flex布局 */
+.u-f,
+.u-f-ac,
+.u-f-ajc {
+	display: flex;
+}
+
+.u-f-ac,
+.u-f-ajc {
+	align-items: center;
+}
+
+.u-f-ajc {
+	justify-content: center;
+}
+
+.u-f-jsb {
+	justify-content: space-between;
+}
+
+.u-f1 {
+	flex: 1;
+}
+
+.u-f-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.columnCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxShadow {
+	box-shadow: 0 0 5px rgba(184, 184, 184, 0.7);
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.textBold {
+	font-weight: bold;
+}
+
+.tetxOverflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.textIndent {
+	text-indent: 2em;
+}
+.centers{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.greenSpot{
+	width: 12rpx;
+	height: 12rpx;
+	border-radius: 50%;
+	background-color: #FF6638;
+}
+.spotName{
+	font-size: 34rpx;
+	font-weight: bold;
+	color: #262626;
+	margin-left: 10rpx;
+}
+.lines{
+	width: 128rpx;
+	height: 6rpx;
+	background: #FF6638;
+	border-radius: 4px;
+	margin-top: 6rpx;
+}
+.bgGrey{
+	background: rgb(249,250,251);
+}
+
+	.margin20 {
+		margin-top: 20rpx;
+	}

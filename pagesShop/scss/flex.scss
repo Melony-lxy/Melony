@@ -1,0 +1,121 @@
+.flex {
+  display: flex;
+}
+.flex1{
+	flex: 1;
+}
+.a-center {
+  align-items: center;
+}
+.a-end {
+  align-items: flex-end;
+}
+.a-start {
+  align-items: flex-start;
+}
+.j-center {
+  justify-content: center;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.j-start {
+  justify-content: flex-start;
+}
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.hidden {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.flex-column {
+  flex-direction: column;
+}
+.center {
+  text-align: center;
+}
+.end{
+	text-align: end;
+}
+.whiteBg {
+  background-color: #ffffff;
+}
+.white{
+  color: #ffffff;
+}
+.themeColor {
+  color: $project-color;
+}
+.color999 {
+  color: #999999;
+}
+.color666 {
+  color: #666666;
+}
+.red{
+	color: red;
+}
+.size20{
+	font-size: 20rpx;
+}
+.size22 {
+  font-size: 22rpx;
+}
+.size24 {
+  font-size: 24rpx;
+}
+.size26 {
+  font-size: 26rpx;
+}
+.size28 {
+  font-size: 28rpx;
+}
+.size30 {
+  font-size: 30rpx;
+}
+.size32 {
+  font-size: 32rpx;
+}
+.size34 {
+  font-size: 34rpx;
+}
+.size36 {
+  font-size: 36rpx;
+}
+.size46 {
+  font-size: 46rpx;
+}
+.size56{
+  font-size: 56rpx;
+}
+.fontWight {
+  font-weight: bold;
+}
+.ellipsis1{
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.ellipsis2{
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.retract{
+	text-indent: 2em;
+}
+

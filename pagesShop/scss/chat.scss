@@ -1,0 +1,111 @@
+@import '/global.scss';
+	.flex1{
+		width: 600rpx !important;
+	}
+		.textarea_input{
+			max-height: 130rpx !important;
+			width: 540rpx;
+			height: 80rpx;
+			overflow: auto;
+		}
+.main {
+	position: relative;
+
+	.chatList {
+		padding: 0 28rpx 0rpx;
+
+		.scroll{
+			height: 1200rpx;
+		}
+		.keyboard {
+			height: 1140rpx;
+		}
+
+		.content {
+			min-height: 20rpx;
+			max-width: 500rpx;
+			height: auto;
+			word-wrap: break-word;
+			word-break: break-all;
+			padding: 13rpx;
+			border-radius: 10rpx;
+			vertical-align: middle;
+			line-height: 40rpx;
+
+			.tips {
+				margin-top: 20rpx;
+			}
+		}
+
+		.left,
+		.right {
+			margin-top: 40rpx;
+		}
+
+		.left {
+			.content {
+				margin-left: 10rpx;
+				background-color: #FFFFFF;
+			}
+		}
+
+		.right {
+			.content {
+				margin-right: 10rpx;
+				background-color: $themeColor;
+				color: #FFFFFF;
+			}
+
+			.imgBox {
+				margin: 10rpx;
+			}
+		}
+	}
+
+	.footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		.tips1{
+			background-color: #fafafa;
+		}
+		.medium {
+			color: $project-color;
+			display: inline-flex;
+			width: auto;
+			height: 35px;
+			line-height: 35px;
+			padding-left: 20rpx;
+			// background-color: $themeColor;
+			// color: #FFFFFF;
+			// border-radius: 6rpx;
+		}
+
+		.img {
+			padding-left: 20rpx;
+		}
+
+		.options {
+			padding: 20rpx 30rpx;
+			border-radius: 6rpx;
+			margin: 10rpx;
+		}
+
+		.inputBox {
+			padding: 0 27rpx;
+			// height: 105rpx;
+		}
+		.textareabox{
+			width: 300rpx;
+		}
+
+		.gap {
+			width: 3rpx;
+			background-color: #E2E2E2;
+		}
+
+		.icon {
+			margin-right: 15rpx;
+		}
+	}
+}

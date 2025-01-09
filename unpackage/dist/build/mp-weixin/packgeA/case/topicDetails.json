@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "专题详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "case-list": "/components/case-list/case-list",
+    "scoll": "/components/scolls/scolls",
+    "case-popup": "/components/case-list/case-popup",
+    "dynamic-information": "/components/dynamicInformation",
+    "dynamicpicture": "/components/dynamicpicture",
+    "addvlog": "/components/addvlog",
+    "null-data": "/components/nullData"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加购列表",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

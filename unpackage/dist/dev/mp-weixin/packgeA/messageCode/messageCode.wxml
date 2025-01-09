@@ -1,0 +1,1 @@
+<view class="data-v-535c2854"><view class="text data-v-535c2854">{{'短信已发送至'+phone+''}}</view><view class="inputText data-v-535c2854"><u-message-input vue-id="1827e020-1" mode="bottomLine" width="100rpx" data-event-opts="{{[['^finish',[['finish']]]]}}" bind:finish="__e" class="data-v-535c2854" bind:__l="__l"></u-message-input></view></view>

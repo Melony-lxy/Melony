@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "AI成长计划",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-verification-code": "/uview-ui/components/u-verification-code/u-verification-code",
+    "zcscrool": "/components/zc-scroll/zc-scroll",
+    "store-information": "/components/storeInformation"
+  }
+}

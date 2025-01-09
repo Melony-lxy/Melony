@@ -1,0 +1,205 @@
+
+page {
+	background: #f2f2f2;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.quan.data-v-4a63622c {
+  width: 40rpx;
+  height: 40rpx;
+  background: #f2f2f2;
+  border-radius: 50%;
+  border: 1rpx solid #ff6638;
+}
+.box.data-v-4a63622c {
+  padding: 34rpx 29rpx;
+}
+.box .title.data-v-4a63622c {
+  font-size: 45rpx;
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  color: #262626;
+  margin-bottom: 32rpx;
+}
+.box .curriculumDetails.data-v-4a63622c {
+  background-color: white;
+  border-radius: 20rpx;
+  padding: 24rpx 27rpx 0 33rpx;
+}
+.box .curriculumDetails .titleName.data-v-4a63622c {
+  font-size: 30rpx;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  color: #2d2d2d;
+  padding-bottom: 25rpx;
+}
+.box .curriculumDetails .twoBox.data-v-4a63622c {
+  margin-top: 30rpx;
+  padding-bottom: 28rpx;
+  padding-right: 35rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f5f4f4;
+}
+.box .curriculumDetails .twoBox .imgBox.data-v-4a63622c {
+  overflow: hidden;
+  width: 294rpx;
+  height: 182rpx;
+  margin-right: 17rpx;
+}
+.box .curriculumDetails .twoBox .imgBox .img.data-v-4a63622c {
+  width: 100%;
+  height: 100%;
+}
+.box .curriculumDetails .twoBox .rightBox.data-v-4a63622c {
+  width: 60%;
+}
+.box .curriculumDetails .twoBox .rightBox .title.data-v-4a63622c {
+  font-size: 32rpx;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  color: #2d2d2d;
+  display: inline;
+}
+.box .curriculumDetails .twoBox .rightBox .price.data-v-4a63622c {
+  font-size: 30rpx;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  color: #ff6638;
+}
+.box .curriculumDetails .twoBox .rightBox .originalPrice.data-v-4a63622c {
+  font-size: 18rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #c4c4c4;
+  margin-left: 6rpx;
+}
+.box .curriculumDetails .twoBox .rightBox .number.data-v-4a63622c {
+  font-size: 28rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+.box .curriculumDetails .twoBox .rightBox .lable.data-v-4a63622c {
+  width: 77rpx;
+  height: 30rpx;
+  background: #ff6638;
+  border-radius: 28rpx;
+  color: white;
+  font-size: 24rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  line-height: 30rpx;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  display: inline-block;
+  padding: 3px 5px;
+}
+.box .curriculumDetails .slot-content.data-v-4a63622c {
+  margin-top: 27rpx;
+  padding: 0rpx 10rpx;
+}
+.box .curriculumDetails .slot-content .item.data-v-4a63622c {
+  margin-bottom: 34rpx;
+  border-bottom: 1px solid #f5f4f4;
+}
+.box .curriculumDetails .slot-content .item .titleName.data-v-4a63622c {
+  font-size: 26rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+.box .curriculumDetails .slot-content .item .text.data-v-4a63622c {
+  font-size: 26rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #666666;
+  opacity: 1;
+}
+.data-v-4a63622c .buttonBox {
+  align-items: center;
+}
+.cancel.data-v-4a63622c {
+  width: 340rpx;
+  height: 57rpx;
+  background: #ffffff;
+  border: 1px solid #989898;
+  border-radius: 29rpx;
+  font-size: 26rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  line-height: 57rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  color: #999999;
+  margin: 0 10rpx;
+}
+.study.data-v-4a63622c {
+  margin: 0 10rpx;
+  width: 100%;
+  height: 80rpx;
+  background: #ff6638;
+  border-radius: 40rpx;
+  font-size: 26rpx;
+  font-family: Source Han Sans SC;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #ffffff;
+}
+.buttonBox.data-v-4a63622c {
+  text-align: center;
+  margin-top: 50rpx;
+}
+.slot-content-model.data-v-4a63622c {
+  border: 1px solid #f5f4f4;
+  margin-top: 32rpx;
+  padding: 20rpx 70rpx;
+}
+.slot-content-model .item.data-v-4a63622c {
+  margin-bottom: 34rpx;
+  width: 100%;
+}
+.slot-content-model .item .titleName.data-v-4a63622c {
+  font-size: 26rpx;
+  font-family: Source Han Sans SC;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+.slot-content-model .item .text.data-v-4a63622c {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #666666;
+  opacity: 1;
+}
+.paylist.data-v-4a63622c {
+  margin-top: 30rpx;
+}
+.lastpay.data-v-4a63622c {
+  margin-bottom: 12rpx !important;
+}
+

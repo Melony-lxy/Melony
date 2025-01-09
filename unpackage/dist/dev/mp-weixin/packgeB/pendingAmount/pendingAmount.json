@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "待结算金额",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "usingComponents": {}
+}

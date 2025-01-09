@@ -1,0 +1,146 @@
+@import '/global.scss';
+.u-icon__icon{
+	font-size: 10px;
+	font-weight: normal;
+	top: 4px !important;
+	color: #ffffff;
+}
+.main{
+	background-color: $mainBg;
+	padding-bottom: 110rpx;
+	position: relative;
+	.accomplish{
+		color: $project-color;
+	}
+	.checkbox{
+		width: 80rpx;
+	}
+	.contentBox{
+		flex: 1;
+	}
+	.color{
+		height: 2rpx;
+	}
+	.store{
+		background-color: #fff;
+		margin: 20rpx auto;
+		width: 720rpx;
+		border-radius: 20rpx;
+		overflow: hidden;
+	}
+	.StoreName{
+		display: flex;
+		margin: 14px 14px 0;
+		padding: 12px 0px;
+		color:$project-color;
+		font-weight: bold;
+	}
+	.fixedTop{
+		position: fixed;
+		top: 0%;
+		width: 100%;
+		padding: 33rpx 28rpx;
+		z-index: 11;
+		.shoppingType{
+			margin: 30rpx 0;
+			border: 2rpx solid $project-color;
+			border-radius: 6rpx;
+			.domestic,.overseas{
+				padding: 20rpx 0;
+			}
+			.domestic{
+				background-color: $project-color;
+				color: #FFFFFF;
+				flex: 1;
+			}
+			.overseas{
+				flex: 1;
+			}
+		}
+		.giveGifts{
+			.gift{
+				padding-top: 20rpx;
+				border-top: 2rpx solid #F2F2F2;
+				margin-top: 20rpx;
+			}
+			.reload{
+				width: 20%;
+			}
+		}
+	}
+	.distance{
+		top: 70rpx;
+	}
+	.content{
+		background-color: #FAFAFA;
+		padding-bottom: 2rpx;
+		padding-top: 107rpx;
+	}
+	.empty{
+		padding-top: 450rpx;
+	}
+	.disabled{
+		background-color: #f2f3f5;
+	}
+	.commodity{
+		margin: 0 0;
+		padding: 0px 9px 24rpx 40rpx;
+		.specialOffer{
+			background-color: $project-color;
+			color: #FFFFFF;
+			padding: 6rpx 11rpx;
+			border-radius: 4rpx;
+			margin-right: 15rpx;
+			
+		}
+		.commodityInfo{
+			margin-top: 26rpx;
+			.imgBox{
+				width: 154rpx;
+				margin-right: 24rpx;
+			}
+			.rightBox{
+				width: 100%;
+				margin-left: 10rpx;
+			}
+			.original{
+				text-decoration:line-through;
+			}
+			.specification{
+				background-color: #FAFAFA;
+				border-radius: 5rpx;
+				margin: 18rpx 8rpx;
+			}
+			.img{
+				border: 2rpx solid #F1F1F1;
+			}
+			.preferential{
+				background: $xc;
+				border-radius: 4px;
+				padding: 0 10rpx;
+				margin-left: 30rpx;
+				// margin-left: 10rpx;
+			}
+		}
+		
+		.numberbox{
+			margin-top: 21rpx;
+		}
+		
+	}
+	.footer{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		padding: 16rpx 11rpx;
+		.checkAll{
+			padding-right: 20rpx;
+		}
+		.payment{
+			background-color: $project-color;
+			color: #FFFFFF;
+			padding: 18rpx 43rpx;
+			border-radius: 4rpx;
+		}
+	}
+}

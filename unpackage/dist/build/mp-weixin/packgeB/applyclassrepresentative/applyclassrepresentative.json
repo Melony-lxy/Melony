@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "申请课代表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-verification-code": "/uview-ui/components/u-verification-code/u-verification-code",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

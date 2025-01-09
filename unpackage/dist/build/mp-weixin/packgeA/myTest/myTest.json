@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的测验",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "task-item": "/packgeA/components/taskItem"
+  }
+}

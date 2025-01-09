@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "计划详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "课程列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "commodity-item": "/components/commodityItem"
+  }
+}

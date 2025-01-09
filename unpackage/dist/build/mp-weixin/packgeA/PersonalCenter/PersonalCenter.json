@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "nav-tab": "/components/nav-tab",
+    "dynamic-information": "/components/dynamicInformation",
+    "arctan": "/components/arctan",
+    "case-list": "/components/case-list/case-list"
+  }
+}

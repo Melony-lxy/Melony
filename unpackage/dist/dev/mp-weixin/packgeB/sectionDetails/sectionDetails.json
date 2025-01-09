@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "课节详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "file-item": "/packgeA/components/fileItem",
+    "task-item": "/packgeA/components/taskItem",
+    "aliplayer": "/packgeB/aliplayer"
+  }
+}

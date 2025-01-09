@@ -1,0 +1,111 @@
+
+.header {
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.active {
+	color: $project-color;
+	border-bottom: 6rpx $project-color solid;
+}
+.tab_tit {
+	width: 100%;
+	height: 50rpx;
+	display: flex;
+	justify-content: space-around;
+}
+.demo_warp .active {
+	color: $project-color;
+}
+.demo_warp {
+	width: 100%;
+	height: 54rpx;
+	margin-top: 8rpx;
+	border-bottom: 1px solid #e8e8e8;
+}
+.demo_warp ._li {
+	list-style: none;
+	width: 140rpx;
+	height: 52rpx;
+	font-size: 28rpx;
+	text-align: center;
+	color: #999999;
+}
+.demo_warp .tab_con {
+	text-align: center;
+}
+.tab_Content {
+	width: 90%;
+	height: 165rpx;
+	margin-left: 5%;
+	margin-top: 15rpx;
+	overflow: hidden;
+	border-bottom: 2rpx gainsboro solid;
+}
+.tab1_Content {
+	width: 90%;
+	height: 165rpx;
+	margin-left: 5%;
+	margin-top: 15rpx;
+	overflow: hidden;
+	border-bottom: 2rpx gainsboro solid;
+}
+.tab_img,
+.tab1_img {
+	width: 110rpx;
+	height: 110rpx;
+	border-radius: 6rpx;
+	margin-left: 20rpx;
+	margin-top: 25rpx;
+	float: left;
+}
+.tab_content,
+.tab1_content {
+	float: left;
+	text-align: left;
+	line-height: 80rpx;
+	margin-left: 20rpx;
+}
+.tab_img ._img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 6rpx;
+	height: 100%;
+}
+.tab1_img ._img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.tab_content1,
+.tab1_content1 {
+	white-space: nowrap;
+	width: 300rpx;
+	font-weight: bold;
+	font-size: 28rpx;
+	color: #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tab_content2,
+.tab1_content2 {
+	font-size: 22rpx;
+	color: #999999;
+}
+.tab_content3,
+.tab1_content3 {
+	width: 102rpx;
+	height: 46rpx;
+	font-size: 26rpx;
+	background: $project-color;
+	border-radius: 27px 27px 27px 27px;
+	opacity: 1;
+	line-height: 46rpx;
+	text-align: center;
+	margin-left: 20rpx;
+	margin-top: 50rpx;
+	float: right;
+	margin-right: 50rpx;
+	color: whitesmoke;
+}
+

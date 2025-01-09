@@ -1,0 +1,44 @@
+
+.assess-list.data-v-3ffb8b0c {
+	/* margin: 10px 0; */
+	border-top: 1px solid #e6e6e6;
+	padding: 10px 0;
+}
+.assess-right.data-v-3ffb8b0c {
+	display: flex;
+	justify-content: center;
+	margin-left: 5px;
+}
+.assess-head-portrait.data-v-3ffb8b0c {
+	height: 72rpx;
+	width: 72rpx;
+	margin-top: 31rpx;
+	border-radius: 50%;
+}
+.middle.data-v-3ffb8b0c {
+	flex: 1;
+	padding-left: 10px;
+	line-height: 45rpx;
+}
+.assess-nickname.data-v-3ffb8b0c {
+	font-size: 30rpx;
+	color: #666;
+}
+.assess-tiem.data-v-3ffb8b0c {
+	font-size: 22rpx;
+	color: #c7c7c7;
+}
+.assess-content.data-v-3ffb8b0c {
+	font-size: 26rpx;
+	color: #333;
+}
+.heat.data-v-3ffb8b0c {
+	font-size: 22rpx;
+	color: #c7c7c7;
+	margin-top: 6px;
+	margin-right: 4px;
+}
+.more.data-v-3ffb8b0c {
+	color: #333;
+}
+

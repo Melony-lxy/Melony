@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "成长计划",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

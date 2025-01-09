@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "动态搜索",
+  "usingComponents": {
+    "uni-nav-bar": "/packgeA/components/uni-nav-bar/uni-nav-bar",
+    "uni-status-bar": "/components/uni-status-bar/uni-status-bar",
+    "labe-list": "/packgeA/components/label/label"
+  }
+}

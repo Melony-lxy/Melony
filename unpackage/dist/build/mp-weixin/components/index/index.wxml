@@ -1,0 +1,1 @@
+<view class="recommend data-v-8e887f6e" style="{{('padding-bottom:'+padding+'px')}}"><view class="circle data-v-8e887f6e"><circle-list vue-id="26c69548-1" class="data-v-8e887f6e" bind:__l="__l"></circle-list></view><view class="special data-v-8e887f6e"><special vue-id="26c69548-2" class="data-v-8e887f6e" bind:__l="__l"></special></view></view>

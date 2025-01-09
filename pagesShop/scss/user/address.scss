@@ -1,0 +1,60 @@
+@import '../global.scss';
+.main{
+	.top{
+		padding: 26rpx 28rpx;
+	}
+	.accomplish{
+		color: $project-color;
+	}
+	.centent{
+		margin-top: 30rpx;
+		.edit{
+			border-radius: 10rpx;
+			margin-top: 28rpx;
+		}
+		.item{
+			padding: 26rpx 28rpx;
+			.address{
+				margin: 0 30rpx;
+			}
+			.lastName{
+				background-color: rgba(255,127,54,0.18);
+				width: 68rpx;
+				height: 68rpx;
+				border-radius: 50%;
+				// opacity: 0.18;
+				line-height: 68rpx;
+				color: $project-color;
+			}
+			.phone{
+				padding: 0 15rpx;
+			}
+			.default{
+				padding: 5rpx 10rpx;
+				border: 2rpx solid $project-color;
+				border-radius: 6rpx;
+			}
+			.district{
+				margin-top: 15rpx;
+			}
+			.manage{
+				padding-top: 25rpx;
+				margin-top: 43rpx;
+				border-top: 2rpx solid #EAEAEA;
+			}
+		}
+	}
+	.footer {
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+	  padding: 20rpx 28rpx;
+	  z-index: 1111;
+	  .submit {
+	    background: $project-color;
+	    color: #ffffff;
+	    padding: 17rpx 0;
+		border-radius: 5rpx;
+	  }
+	}
+}

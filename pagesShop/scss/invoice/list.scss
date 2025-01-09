@@ -1,0 +1,23 @@
+@import '../global.scss';
+
+.main{
+	padding: 0 28rpx;
+	.item{
+		margin-top: 20rpx;
+		border-radius: 16rpx;
+		padding: 27rpx 22rpx;
+		box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.08);
+		.productItem{
+			margin-bottom: 20rpx;
+		}
+		.img{
+			margin-right: 22rpx;
+		}
+		.lookOver{
+			border: 2rpx solid #FF7F36;
+			border-radius: 50rpx;
+			padding: 12rpx 30rpx;
+			display: inline-block;
+		}
+	}
+}

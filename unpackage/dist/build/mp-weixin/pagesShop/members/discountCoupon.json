@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "优惠券列表",
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

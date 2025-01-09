@@ -1,0 +1,26 @@
+
+.purchaseBoxName.data-v-c8bd697e {
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.purchasePrice.data-v-c8bd697e {
+	font-size: 28rpx;
+	font-weight: 500;
+	color: #fea406;
+	margin-top: 15rpx;
+}
+.statusBox.data-v-c8bd697e {
+	background: #ff6638;
+	border-radius: 14rpx;
+	font-size: 20rpx;
+	font-family: Source Han Sans SC;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.87);
+	width: 98rpx;
+	height: 26rpx;
+	line-height: 26rpx;
+	text-align: center;
+	margin-right: 10rpx;
+}
+

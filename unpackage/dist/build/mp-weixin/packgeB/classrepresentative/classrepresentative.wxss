@@ -1,0 +1,1 @@
+.classrepresentative .topimg{display:flex;justify-content:center;padding-bottom:100rpx}.classrepresentative .topimg image{width:95%;display:block}.classrepresentative .button{border-radius:10rpx 10rpx 0 0;width:100vw;display:flex;justify-content:center;position:fixed;bottom:0;color:#fff;font-size:32rpx;line-height:100rpx}

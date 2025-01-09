@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "video-play": "/packgeA/components/y-video-slide/y-video-slide"
+  }
+}

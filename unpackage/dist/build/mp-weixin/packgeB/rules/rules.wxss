@@ -1,0 +1,1 @@
+.index .content{padding:30rpx}.index .content .title{font-size:36rpx;margin-bottom:40rpx;padding-left:14rpx;color:#000}.index .content .question{margin-bottom:20rpx;font-size:32rpx;color:#000}.index .content .answer{font-size:26rpx;color:#999;padding-left:14rpx;margin-bottom:20rpx;line-height:2}

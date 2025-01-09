@@ -1,0 +1,43 @@
+
+.fileBox.data-v-171548c5{
+		padding: 0 29rpx;
+}
+.fileItem.data-v-171548c5{
+		padding: 19rpx 35rpx;
+		background: #FFFFFF;
+		border: 1px solid #E9E9E9;
+		border-radius: 20rpx;
+		margin-top: 23rpx;
+}
+.fileType.data-v-171548c5{
+		width: 90rpx;
+		height: 90rpx;
+		background: #4392F2;
+		border-radius: 2px;
+		font-size: 51rpx;
+		font-family: FZHei-B01S;
+		color: #FFFFFF;
+		text-align: center;
+		line-height: 90rpx;
+		margin-right: 19rpx;
+}
+.fileName.data-v-171548c5{
+		font-size: 28rpx;
+		font-family: Source Han Sans SC;
+		font-weight: 400;
+		color: #2D2D2D;
+}
+.button.data-v-171548c5{
+		width: 125rpx;
+		height: 47rpx;
+		background: #FF6638;
+		border-radius: 9rpx;
+		font-size: 21rpx;
+		font-family: Source Han Sans SC;
+		font-weight: 400;
+		line-height: 47rpx;
+		color: #FFFFFF;
+		text-align: center;
+}
+
+

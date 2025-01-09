@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "date-box": "/components/zsy-calendar/dateBox"
+  }
+}

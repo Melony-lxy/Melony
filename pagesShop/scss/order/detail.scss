@@ -1,0 +1,77 @@
+@import '../global.scss';
+.main{
+	padding: 28rpx;
+	.tips{
+		background-color: $project-color;
+		color: #FFFFFF;
+		padding: 5rpx 10rpx;
+		display: inline-block;
+		margin-bottom: 20rpx;
+		border-radius: 5rpx;
+	}
+	.phone{
+		height: 100rpx;
+		padding: 0 100rpx;
+		color: #2196f3;
+	}
+	.copyText{
+		margin: 10rpx;
+		.custom-style {
+				color: $project-color;
+				border-style: $project-color;
+			}
+	}
+	
+	.top{
+		padding: 19rpx;
+		border-radius: 8rpx;
+		.item{
+			margin-top: 20rpx;
+			.title{
+				width: 50%;
+			}
+			.priceOrNumber{
+				width: 20%;
+				.priceStyle{
+					text-align: end;
+				}
+			}
+			
+		}
+		.afterSaleText{
+			padding: 5rpx 15rpx;
+			border-radius: 25rpx;
+			border: 2rpx solid #CCCCCC;
+			margin-top: 20rpx;
+			margin-left: 10rpx;
+		}
+		.img{
+			margin-right: 22rpx;
+		}
+		.describe{
+			background: #FAFAFA;
+			padding: 12rpx;
+			border-radius: 4rpx;
+		}
+		.price, .afterSale{
+			margin-top: 36rpx;
+		}
+		.afterSale{
+			display: inline-block;
+			border: 2rpx solid #F1F1F1;
+			border-radius: 50rpx;
+			padding: 10rpx 20rpx;
+		}
+	}
+	.content{
+		border-radius: 8rpx;
+		margin-top: 32rpx;
+		padding: 27rpx 18rpx;
+		.info{
+			padding-top: 46rpx;
+			.label{
+				width: 30%;
+			}
+		}
+	}
+}

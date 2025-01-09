@@ -1,0 +1,11 @@
+{
+  "onReachBottomDistance": 50,
+  "navigationBarTitleText": "商城",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

@@ -1,0 +1,10 @@
+require('../../common/vendor.js');(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packgeA/components/label/label"],{4025:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={props:{label:{type:Array},title:{type:String},remove:{type:Boolean,default:!1},type:{type:String,default:"0"}},data:function(){return{typeList:[]}},mounted:function(){this.typeList=this.label},watch:{label:function(){this.typeList=this.label}},methods:{rem:function(){var t=this;this.remove&&this.$axios({url:this.$url[57]}).then((function(e){0==e.code&&t.$emit("remove")}))},labelChange:function(e){var n=this;this.$axios({url:this.$url[56],data:{name:this.typeList[e].title,type:this.type}}).then((function(i){0==i.code&&t.navigateTo({url:"/packgeA/case/search_list/search_list?search="+n.typeList[e].title+"&type="+n.type})}))}}};e.default=n}).call(this,n("df3c")["default"])},b1ea:function(t,e,n){"use strict";n.r(e);var i=n("f8dd"),a=n("e6df");for(var u in a)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return a[t]}))}(u);n("d8f9");var r=n("828b"),c=Object(r["a"])(a["default"],i["b"],i["c"],!1,null,"09982a48",null,!1,i["a"],void 0);e["default"]=c.exports},c0d5:function(t,e,n){},d8f9:function(t,e,n){"use strict";var i=n("c0d5"),a=n.n(i);a.a},e6df:function(t,e,n){"use strict";n.r(e);var i=n("4025"),a=n.n(i);for(var u in i)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return i[t]}))}(u);e["default"]=a.a},f8dd:function(t,e,n){"use strict";n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return a})),n.d(e,"a",(function(){}));var i=function(){var t=this.$createElement;this._self._c},a=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packgeA/components/label/label-create-component',
+    {
+        'packgeA/components/label/label-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("b1ea"))
+        })
+    },
+    [['packgeA/components/label/label-create-component']]
+]);

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "交流圈详情",
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "u-read-more": "/uview-ui/components/u-read-more/u-read-more",
+    "case-list": "/components/case-list/case-list",
+    "scoll": "/components/scolls/scolls",
+    "case-popup": "/components/case-list/case-popup",
+    "dynamic-information": "/components/dynamicInformation",
+    "dynamicpicture": "/components/dynamicpicture",
+    "addvlog": "/components/addvlog",
+    "null-data": "/components/nullData"
+  }
+}

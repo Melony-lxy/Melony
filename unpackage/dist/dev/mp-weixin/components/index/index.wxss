@@ -1,0 +1,110 @@
+
+.recommend.data-v-f8fe2e2c {
+  background-color: #f6f6f6;
+}
+.circle.data-v-f8fe2e2c,
+.special.data-v-f8fe2e2c {
+  padding-top: 20rpx;
+}
+.data-v-f8fe2e2c .circle .circle_img[data-v-30a19a09] {
+  display: flex;
+  margin-top: 20rpx;
+}
+.data-v-f8fe2e2c .circle[data-v-30a19a09] {
+  padding: 40rpx 20rpx;
+  background: #fff;
+}
+.data-v-f8fe2e2c .special[data-v-5d7c6cce] {
+  padding: 40rpx 20rpx;
+  background: #fff;
+}
+.dynamicList.data-v-f8fe2e2c{
+  padding: 0 18rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.padding-bottom.data-v-f8fe2e2c {
+  padding-bottom: 20rpx;
+}
+.margin.data-v-f8fe2e2c {
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+}
+.swiper-item.data-v-f8fe2e2c {
+  width: 100%;
+  height: 100%;
+}
+.swiper-item > image.data-v-f8fe2e2c {
+  width: 100%;
+  height: 100%;
+}
+/* 中间菜单 */
+.menu.data-v-f8fe2e2c {
+  margin: 29rpx 32rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  box-shadow: 0 3rpx 10rpx #00000005;
+}
+.menu-item.data-v-f8fe2e2c {
+  display: flex;
+  /* 	justify-content: space-around; */
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  padding-bottom: 47rpx;
+}
+.menu-list.data-v-f8fe2e2c {
+  width: 25%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 47rpx;
+}
+.menu-image.data-v-f8fe2e2c {
+  width: 98rpx;
+  height: 98rpx;
+  border-radius: 50%;
+}
+.menu-image > image.data-v-f8fe2e2c {
+  width: 100%;
+  height: 100%;
+}
+/* 热门任务 */
+.line.data-v-f8fe2e2c {
+  height: 20rpx;
+  background: #ededed;
+}
+.radio.data-v-f8fe2e2c {
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #ff5e00, #ff5e00);
+  margin-right: 10rpx;
+}
+.title.data-v-f8fe2e2c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 26rpx 0;
+}
+.left.data-v-f8fe2e2c {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  color: #4d505f;
+  font-size: 32rpx;
+}
+.right > image.data-v-f8fe2e2c {
+  width: 32rpx;
+  height: 28rpx;
+}
+.right.data-v-f8fe2e2c {
+  color: #4d505f;
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设备",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

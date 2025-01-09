@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-waterfall.data-v-ad895d94 {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 5px;
+}
+.u-column.data-v-ad895d94 {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-direction: column;
+  height: auto;
+}
+.u-image.data-v-ad895d94 {
+  width: 100%;
+}
+.align-center image.data-v-ad895d94 {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.radio-flex.data-v-ad895d94 {
+  display: flex;
+  align-items: center;
+}
+.radio.data-v-ad895d94 {
+  width: 6rpx;
+  height: 6rpx;
+  margin-right: 6rpx;
+  background-color: #999;
+  border-radius: 50%;
+}
+.list-user-width.data-v-ad895d94 {
+  width: 120rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.list-user-nick.data-v-ad895d94 {
+  color: #808183;
+  font-size: 22rpx;
+}
+.list-user.data-v-ad895d94 {
+  padding: 14rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-user-l.data-v-ad895d94 {
+  display: flex;
+  align-items: center;
+}
+.list-user-image.data-v-ad895d94 {
+  width: 32rpx;
+  height: 32rpx;
+}
+.list-user-images.data-v-ad895d94,
+.list-user-image.data-v-ad895d94 {
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.list-user-images.data-v-ad895d94 {
+  width: 36rpx;
+  height: 36rpx;
+  box-shadow: 0 3rpx 10rpx #00000010;
+}
+.list-text.data-v-ad895d94 {
+  padding: 0 26rpx;
+}
+.lock > image.data-v-ad895d94 {
+  width: 18.46rpx;
+  height: 18.56rpx;
+  margin-right: 13rpx;
+}
+.lock-img.data-v-ad895d94 {
+  display: inline-block;
+}
+.lock.data-v-ad895d94 {
+  width: 140px;
+  margin: 14rpx 0 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 6rpx 13rpx;
+  background: #ffeee4;
+  border-radius: 6rpx;
+  line-height: 1.2;
+  /* 		border: 1px solid rgba(255, 94, 0, 1); */
+  color: #ff5e00;
+  font-size: 20rpx;
+}
+.list-title.data-v-ad895d94 {
+  color: #1a2430;
+  padding: 14rpx 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  font-weight: 700;
+  /* 		white-space: nowrap;
+		text-overflow: ellipsis; */
+  font-size: 30rpx;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* 		max-height: 134rpx; */
+}
+.list-bottom.data-v-ad895d94 {
+  margin-top: 0;
+}
+.align-center.data-v-ad895d94 {
+  display: flex;
+  align-items: center;
+}
+.list-bottom uni-view.data-v-ad895d94 {
+  line-height: normal;
+}
+.main-wrap.data-v-ad895d94 {
+  display: flex;
+  /* 	flex-wrap: wrap; */
+}
+.list.data-v-ad895d94 {
+  margin-top: 20rpx;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 1.3s;
+  box-shadow: 0 3rpx 10rpx #00000005;
+}
+.image-text.data-v-ad895d94 {
+  vertical-align: bottom;
+  background: #e6e6e6;
+  width: 100%;
+  object-fit: cover;
+  max-height: 400rpx;
+  border-radius: 3rpx 3rpx 0 0;
+  overflow: hidden;
+}
+.list.data-v-ad895d94 {
+  background: #fff;
+}
+.type.data-v-ad895d94 {
+  position: absolute;
+  bottom: 5px;
+  left: 20rpx;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 20rpx;
+  padding: 0 20rpx;
+  border-radius: 10px;
+}
+.nickname.data-v-ad895d94 {
+  font-size: 14px;
+  margin-left: 9rpx;
+  color: #999;
+}
+.title.data-v-ad895d94 {
+  line-height: 1;
+  font-size: 30rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 30rpx 0;
+}
+

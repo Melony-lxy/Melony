@@ -1,0 +1,1 @@
+<view><view class="flex-center" style="{{'padding-top:'+(paddingTop+'rpx')+';'}}"><u-empty vue-id="b999fe0c-1" text="{{tip}}" mode="{{mode}}" bind:__l="__l"></u-empty></view></view>

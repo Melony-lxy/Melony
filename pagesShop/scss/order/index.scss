@@ -1,0 +1,273 @@
+@import '../global.scss';
+
+.main {
+	background-color: $mainBg;
+	padding-bottom: 170rpx;
+	.navTypeBox{
+		padding: 10rpx 0;
+		.u-radio-group{
+			display: flex;
+			justify-content: space-around;
+		}
+		.u-radio{
+			width: 50% !important;
+		    display: flex;
+		    justify-content: center;
+		}
+	}
+	.PaymentOrder_box{
+		background-color: #FAFAFA;
+	}
+	.orderremarks{
+		margin: 8rpx 28rpx;
+	}
+	.storename{
+		margin: 28rpx;
+		padding-top: 28rpx;
+		font-weight: bold;
+		color: $project-color;
+		font-size: 30rpx;
+	}
+	.PaymentOrder{
+		background-color: #fff;
+		width: 720rpx;
+		margin: 15rpx auto;
+		border-radius: 10rpx;
+	}
+	.leftBox{
+		width: 60%;
+		text-align: end;
+	}
+
+	.rightBox{
+		width: 40%;
+	}
+	.addressbox{
+		padding: 20rpx 30rpx 20rpx !important;
+	}
+	.top {
+		padding: 20rpx 48rpx 20rpx;
+
+		.tips4 {
+			margin-top: 30rpx;
+		}
+
+		.default {
+			color: #ffffff;
+			background-color: $themeColor;
+			padding: 4rpx;
+			border-radius: 4rpx;
+			margin-right: 8rpx;
+		}
+
+		.address {
+			padding-bottom: 20rpx;
+		}
+
+		.detailedAddress {
+			margin: 21rpx 0;
+		}
+
+		.name {
+			padding-right: 12rpx;
+		}
+
+		// .select{
+		// 	width: 65%;
+		// }
+		.delivery {
+			margin-bottom: 25rpx;
+		}
+	}
+
+	.purchasedItem {
+		margin: 15rpx 28rpx;
+		.poupon{
+			font-weight: 600;
+		}
+		.tips3 {
+			background-color: #fc4949;
+			padding: 5rpx 10rpx;
+			color: #FFFFFF;
+			border-radius: 10rpx;
+		}
+	}
+
+	.creditPoints {
+		margin: 28rpx 0;
+		padding: 15rpx;
+
+		.deduction {
+			padding-left: 12rpx;
+		}
+	}
+
+	.continueShopping {
+		.title {
+			// padding: 20rpx 0 0 20rpx;
+		}
+	}
+
+	.content {
+		margin: 28rpx;
+
+		.img {
+			border: 2rpx solid #F1F1F1;
+		}
+
+		.commodityInfo,
+		.creditPoints,
+		.gift {
+			border-radius: 8rpx;
+		}
+
+		.commodityInfo {
+			border-bottom:2rpx solid #e2e2e2;
+			margin-top: 20rpx;
+			// padding: 19rpx;
+			padding-bottom: 30rpx;
+			.giftItem {
+				margin-top: 30rpx;
+			}
+
+			.title {
+				width: 60%;
+				margin-left: 10rpx;
+			}
+
+			.describe {
+				// padding: 11rpx;
+				margin: 11rpx;
+				background-color: #FAFAFA;
+			}
+
+			.orderInfo {
+				margin-top: 40rpx;
+
+				.orderItem {
+					margin-bottom: 20rpx;
+				}
+
+				.remarks {
+					width: 50%;
+				}
+
+				.tips1 {
+					text-align: end;
+				}
+			}
+
+			.totalPrice {
+				padding: 30rpx 0 20rpx;
+			}
+
+		}
+
+		.gift {
+			padding: 27rpx 16rpx;
+
+			.giftItem {
+				padding-left: 10rpx;
+				margin-top: 30rpx;
+
+				.giftTitle {
+					width: 65%;
+				}
+			}
+		}
+	}
+	.money_box{
+		width: 214rpx;
+	}
+	.totalPrice{
+		margin:40rpx 28rpx;
+		padding-bottom: 30rpx;
+		margin-bottom: 20rpx;
+	}
+	.footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		padding: 16rpx 27rpx;
+
+		.pay {
+			color: #FFFFFF;
+			background-color: $themeColor;
+			padding: 23rpx 47rpx;
+			border-radius: 4rpx;
+		}
+	}
+
+	.lable {
+		width: 30%;
+	}
+
+	.storeContent {
+		padding: 30rpx;
+
+	}
+
+	.categoryList {
+		padding: 26rpx 28rpx 120rpx;
+
+		.list {
+			border-bottom: 2rpx solid #f2f2f2;
+			padding: 25rpx 0;
+			margin-bottom: 25rpx;
+		}
+
+		.img {
+			border: 2rpx solid #F1F1F1;
+			margin-right: 32rpx;
+		}
+
+		.info {
+			padding-bottom: 26rpx;
+		}
+
+		.lable {
+			width: 100%;
+			margin-bottom: 24rpx;
+		}
+
+		.number {
+			margin-left: 20rpx;
+		}
+
+		.categoryType {
+			background-color: #F2F2F2;
+			padding: 0 16rpx;
+			margin-right: 20rpx;
+			// height: 57rpx;
+			line-height: 57rpx;
+
+			.typeImg {
+				padding-right: 18rpx;
+			}
+		}
+
+		.active {
+			color: $project-color;
+			background-color: #1a79ff33;
+		}
+	}
+
+.giftTips{
+	margin-bottom: 26rpx;
+}
+	.popupItem {
+		margin-bottom: 20rpx;
+	}
+	.popupItem {
+		margin-bottom: 20rpx;
+	}
+
+	.bottom {
+		position: absolute;
+		padding: 20rpx 0;
+		bottom: 0;
+		width: 100%;
+		color: #FFFFFF;
+		background-color: $project-color;
+	}
+}

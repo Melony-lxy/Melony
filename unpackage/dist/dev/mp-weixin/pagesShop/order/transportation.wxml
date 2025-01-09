@@ -1,0 +1,1 @@
+<view class="main data-v-6cf88c70"><view class="data-v-6cf88c70"><view class="fontWight size36 data-v-6cf88c70">物流信息：</view><view class="text data-v-6cf88c70">物流公司：<text class="data-v-6cf88c70">{{data.express}}</text></view><view class="text data-v-6cf88c70">物流单号：<text class="data-v-6cf88c70">{{data.shipping_no}}</text></view></view></view>

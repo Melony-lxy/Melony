@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "活动报名",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#042BE3",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "null-data": "/components/nullData",
+    "nav-tab": "/components/nav-tab",
+    "arctan": "/components/arctan",
+    "index": "/components/index/index",
+    "uni-status-bar": "/components/uni-status-bar/uni-status-bar",
+    "dynamic-information": "/components/dynamicInformation",
+    "dynamicpicture": "/components/dynamicpicture",
+    "addvlog": "/components/addvlog"
+  }
+}

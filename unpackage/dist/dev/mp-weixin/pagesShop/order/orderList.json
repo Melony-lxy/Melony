@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

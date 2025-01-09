@@ -1,0 +1,1 @@
+<view class="classrepresentative"><view class="topimg"><image src="{{$root.g0}}" mode="widthFix"></image></view><view data-event-opts="{{[['tap',[['gonext']]]]}}" class="button" style="{{'background:'+(detail[status].color)+';'}}" bindtap="__e"><view>{{''+detail[status].button+''}}</view></view></view>

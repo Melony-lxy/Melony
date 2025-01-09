@@ -1,0 +1,397 @@
+@import '/global.scss';
+/deep/.u-badge {
+	line-height: 9px;
+}
+.main {
+	background-color: $mainBg;
+	padding-bottom: 100rpx;
+	position: relative;
+	width: 100%;
+
+	.swiperBox {
+		height: 660rpx;
+	}
+
+	.distance {
+		padding-left: 60rpx;
+	}
+	.giftTips {
+		margin-bottom: 26rpx;
+	}
+	.discount {
+		color: #ffffff;
+		padding: 13rpx 19rpx;
+		background-color: #e94c5e;
+		border-radius: 50rpx;
+		margin-left: 10rpx;
+	}
+
+	// transform: scale3d(1, 1, 1);
+	.item {
+		padding: 30rpx 19rpx;
+		margin: 28rpx 28rpx 0;
+		border-radius: 8rpx;
+		box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.08);
+
+		.originalPrice {
+			text-decoration: line-through;
+			color: #ccc;
+			margin-left: 10rpx;
+		}
+
+		.events {
+			display: inline-block;
+			background-color: #00b4a3;
+			padding: 10rpx;
+			color: #ffffff;
+			border-radius: 10rpx;
+			margin-top: 10rpx;
+			margin-right: 10rpx;
+		}
+		.purchasedEvents {
+			background-color: #1a79ff33;
+			padding: 10rpx;
+			color: #ff7f36;
+			border-radius: 10rpx;
+			margin: 10rpx 10rpx 0;
+		}
+
+		.tips {
+			width: 400rpx;
+			color: #ffffff;
+			// padding: 13rpx 19rpx;
+			background-image: linear-gradient(to right, #ed838f, #e94c5e);
+			border-radius: 30rpx;
+			margin-left: 15rpx;
+			height: 60rpx;
+			line-height: 60rpx;
+			padding: 0 10rpx;
+			white-space: normal;
+		}
+
+		.title {
+			margin: 21rpx 0 41rpx;
+		}
+
+		.img {
+			margin-right: 10rpx;
+		}
+
+		.option {
+			padding: 22rpx 0;
+		}
+
+		.lable {
+			margin-right: 28rpx;
+			width: 10%;
+		}
+
+		.commentList {
+			padding-top: 29rpx;
+
+			.commentText {
+				padding-top: 26rpx;
+			}
+		}
+	}
+
+	.introduce {
+		margin-top: 28rpx;
+		padding: 0 30rpx 30rpx;
+
+		.image {
+			width: 100%;
+			height: 100%;
+		}
+
+		.introduceTitle {
+			padding: 49rpx;
+		}
+	}
+
+	.footer {
+		// z-index: 99999;
+		position: fixed;
+		padding: 10rpx;
+		bottom: 0;
+		width: 100%;
+		// width: inherit;
+		box-shadow: 0rpx 0rpx 6rpx rgba(0, 0, 0, 0.16);
+
+		.left {
+			width: 40%;
+		}
+
+		.right {
+			flex: 1;
+		}
+
+		.chat {
+			position: relative;
+			padding-right: 10rpx;
+			width: 100rpx;
+
+			.img {
+				margin: 0 auto;
+			}
+		}
+
+		.purchased {
+			padding: 23rpx 0;
+			color: #ffffff;
+			background-color: #ff7f36;
+		}
+
+		.add {
+			padding: 23rpx 0;
+			color: #ffffff;
+			background: linear-gradient(90deg, #ffba6d 0%, #fc9218 100%);
+		}
+
+		.soldOut {
+			width: 100%;
+			padding: 23rpx 0;
+			color: #ffffff;
+			background-color: #999999;
+		}
+
+		.purchase {
+			padding: 23rpx 0;
+			color: #ffffff;
+			background: linear-gradient(90deg, #fd383f 0%, #ff7674 100%);
+		}
+	}
+
+	.categoryList {
+		padding: 26rpx 28rpx 120rpx;
+
+		.list {
+			border-bottom: 2rpx solid #f2f2f2;
+			padding: 25rpx 0;
+			margin-bottom: 25rpx;
+		}
+
+		.img {
+			border: 2rpx solid #f1f1f1;
+			margin-right: 32rpx;
+		}
+
+		.info {
+			padding-bottom: 26rpx;
+		}
+
+		.lable {
+			margin-bottom: 24rpx;
+		}
+
+		.number {
+			margin-left: 20rpx;
+		}
+
+		.categoryType {
+			background-color: #f2f2f2;
+			padding: 10rpx 16rpx;
+			margin-right: 20rpx;
+			// height: 57rpx;
+			line-height: 57rpx;
+			border-radius: 6rpx;
+			.typeImg {
+				padding-right: 18rpx;
+			}
+		}
+
+		.active {
+			color: $project-color;
+			background-color: #1a79ff33;
+		}
+	}
+
+	.more {
+		padding: 46rpx 0 0;
+
+		.commodityData {
+			margin: 27rpx 28rpx;
+
+			.commodityList {
+				width: 48%;
+				background-color: #ffffff;
+				padding: 24rpx 17rpx;
+				margin-top: 25rpx;
+				box-shadow: 0rpx 3rpx 10rpx rgba(0, 0, 0, 0.08);
+
+				.text {
+					padding-top: 14rpx;
+					font-size: 26rpx;
+					overflow: hidden;
+					-webkit-line-clamp: 2;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+				}
+
+				.salesVolume {
+					padding: 32rpx 0;
+				}
+
+				.size22 {
+					font-size: 22rpx;
+					color: #666666;
+				}
+
+				.price {
+					color: $project-color;
+					font-size: 32rpx;
+				}
+			}
+		}
+	}
+
+	.discounts {
+		padding: 23rpx 28rpx;
+
+		.bottomPrice {
+			border: 2rpx solid $project-color;
+			border-radius: 12rpx;
+			padding: 27rpx 0;
+			width: 160rpx;
+			background-color: #fff8f3;
+			margin: 28rpx auto 19rpx;
+		}
+
+		.calculate {
+			position: relative;
+			border-radius: 10rpx;
+			border: 2rpx #ff7f36 solid;
+			background-color: #fff;
+			margin-top: 40rpx;
+			padding: 58rpx 0 30rpx;
+
+			.discountsTips1 {
+				border: 2rpx solid #ff7f36;
+				background-color: #ffe7da;
+				padding: 7rpx;
+
+				margin-top: 10rpx;
+			}
+
+			.discountsTips2 {
+				margin-top: 10rpx;
+				border: 2rpx solid #ff7f36;
+				background-color: #fff7f2;
+				border-radius: 4rpx;
+
+				.discountsTips3 {
+					background-color: #ffe7da;
+					padding: 7rpx;
+				}
+			}
+
+			.padding29 {
+				padding: 0 29rpx;
+			}
+		}
+
+		.calculate:before,
+		.calculate:after {
+			content: ' ';
+			position: absolute;
+			bottom: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+		}
+
+		.calculate:before {
+			left: 332rpx;
+			border-width: 22rpx;
+			border-color: transparent transparent #ff7f36 transparent;
+		}
+
+		.calculate:after {
+			left: 334rpx;
+			border-width: 21rpx;
+			border-color: transparent transparent white transparent;
+		}
+
+		.couponList {
+			padding: 58rpx 0;
+			text-align: center;
+
+			.coupon {
+				padding: 20rpx 0;
+				background-image: linear-gradient(to right, #fcd6b9, #ffc2cf);
+				border-radius: 10rpx;
+
+				.dotted {
+					padding: 30rpx 0;
+					padding-right: 64rpx;
+					border-right: 2rpx dashed #935757;
+				}
+
+				.padding20 {
+					padding-top: 20rpx;
+				}
+
+				.couponPrice {
+					color: #f40555;
+					font-size: 50rpx;
+					padding-right: 65rpx;
+				}
+
+				.dotted {
+				}
+
+				.couponStatus {
+					border: 2rpx solid #f40555;
+					border-radius: 34rpx;
+					padding: 13rpx 20rpx;
+					color: #f40555;
+				}
+			}
+		}
+	}
+
+	.popupItem {
+		margin-bottom: 20rpx;
+	}
+
+	.bottom {
+		position: absolute;
+		padding: 20rpx 0;
+		bottom: 0;
+		width: 100%;
+		color: #ffffff;
+		background-color: $project-color;
+	}
+}
+
+.comment {
+	background-color: #ffffff;
+
+	.title {
+		padding: 21rpx 47rpx;
+		border-bottom: 1px solid #f1f1f1;
+	}
+
+	.none {
+		padding: 50rpx 0;
+	}
+
+	.commentItem {
+		padding: 29rpx 47rpx 0;
+	}
+
+	.commentList {
+		.img {
+			margin-right: 11rpx;
+		}
+
+		.commentText {
+			padding-top: 26rpx;
+		}
+
+		.file {
+			margin-top: 10rpx;
+		}
+	}
+}

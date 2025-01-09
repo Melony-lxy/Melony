@@ -1,0 +1,112 @@
+@import '../global.scss';
+.discountCoupon{
+	background-color: #f5f5f5;
+	height: calc(100vh - 100px);
+	.imgItem{
+		position: relative;
+		.count{
+			position: absolute;
+			left: 30rpx;
+			bottom: 30rpx;
+			
+		}
+	}
+	.shoppingType{
+		margin: 0 28rpx ;
+		border: 2rpx solid $themeColor;
+		border-radius: 6rpx;
+		.domestic,.overseas{
+			padding: 20rpx 0;
+		}
+		.domestic{
+			background-color: $themeColor;
+			color: #FFFFFF;
+			flex: 1;
+		}
+		.overseas{
+			flex: 1;
+		}
+	}
+	.couponList{
+		padding: 28rpx;
+		text-align: center;
+		.coupon{
+			 margin-bottom: 20rpx;
+			 .couponDate{
+				padding: 20rpx 30rpx;
+				 background-color: #00a5a8;
+				 border-top-left-radius: 15rpx;
+				 border-top-right-radius: 15rpx;
+				 .box{
+					 position: relative;
+					 height: 240rpx;
+					 .content{
+						 margin-top: 50rpx;
+					 }
+					 .name{
+						 position: absolute;
+						 top: 0;
+						 left: 0;
+					 }
+				 }
+				 
+			 }
+			.discountName{
+				padding-bottom: 12rpx;
+				margin-bottom: 12rpx;
+				border-bottom: 1rpx solid #00a5a8;
+				white-space: nowrap;
+			}
+			// padding: 20rpx;
+			// margin-top: 20rpx;
+			// background-image: linear-gradient(to right, #FCD6B9 , #FFC2CF);
+			// border-radius: 10rpx;
+			.dotted{
+				padding: 30rpx 0;
+				padding-right: 64rpx;
+				border-right: 2rpx dashed #935757;
+			}
+			.padding20{
+				padding-top: 20rpx;
+			}
+			.left{
+				margin-right: 50rpx;
+				width: 25%;
+				color: #00a5a8;
+			}
+			.right{
+				margin-right:50rpx;
+				width: 40%;
+				color: #00a5a8;
+			}
+			.times{
+				color: #00a5a8;
+			}
+			.couponStatus{
+				background:#FF7F36;
+				color: #FFFFFF;
+				border-bottom-left-radius: 15rpx;
+				border-bottom-right-radius: 15rpx;
+				padding: 20rpx 0;
+			}
+		}
+	}
+	.footer{
+		// z-index: 99999;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		// width: inherit;
+		box-shadow: 0rpx 0rpx 6rpx rgba(0, 0, 0, 0.16);
+		color: #FFFFFF;
+		.back{
+			width: 30%;
+			background-color: #FF7F36;
+			padding: 20rpx;
+		}
+		.purchased{
+			padding: 20rpx;
+			background-color: #ff5d00;
+		}
+	}
+}

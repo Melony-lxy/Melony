@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "发布动态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "popus": "/packgeA/components/popus/popus",
+    "course": "/packgeA/components/popus/course",
+    "drag-sort": "/packgeA/components/drag-sort/index"
+  }
+}

@@ -1,0 +1,66 @@
+
+page{
+	background: #F3F3F3;
+}
+
+
+
+.box.data-v-03a1376c{
+		padding: 28rpx;
+}
+.whiteBox.data-v-03a1376c{
+		box-sizing: border-box;
+		width: 100%;
+		background-color: white;
+		border-radius: 2px;
+		padding: 0 28rpx 100rpx;
+}
+.headBox.data-v-03a1376c{
+		width: 230rpx;
+		height: 230rpx;
+		border-radius: 50%;
+		padding: 48rpx 0;
+		margin: 0 auto;
+}
+.headImg.data-v-03a1376c{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+}
+.name.data-v-03a1376c{
+		font-size: 30rpx;
+		font-family: Source Han Sans SC;
+		font-weight: 500;
+		color: #2D2D2D;
+		opacity: 1;
+		text-align: center;
+}
+.details.data-v-03a1376c{
+		font-size: 24rpx;
+		font-family: Source Han Sans SC;
+		font-weight: 400;
+		line-height: 36rpx;
+		color: #666666;
+		margin-top: 23rpx;
+}
+.title.data-v-03a1376c{
+		font-size: 28rpx;
+		font-family: Source Han Sans SC;
+		font-weight: bold;
+		color: #2D2D2D;
+		margin-bottom: 27rpx;
+}
+.quan.data-v-03a1376c{
+		width: 17rpx;
+		height: 17rpx;
+		background: #FEA406;
+		border-radius: 50%;
+		margin-right: 12rpx;
+}
+.typeText.data-v-03a1376c{
+		font-size: 28rpx;
+		font-family: Source Han Sans SC;
+		font-weight: 400;
+		color: #666666;
+}
+
